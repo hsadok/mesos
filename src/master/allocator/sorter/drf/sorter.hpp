@@ -108,12 +108,12 @@ public:
 
   size_t count() const override;
 
-private:
+protected:
   // A node in the sorter's tree.
   struct Node;
 
   // Returns the dominant resource share for the node.
-  double calculateShare(const Node* node) const;
+  virtual double calculateShare(const Node* node) const;
 
   // Returns the weight associated with the node. If no weight has
   // been configured for the node's path, the default weight (1.0) is
