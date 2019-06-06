@@ -13,6 +13,8 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
+//
+// Modifications Copyright 2019 Hugo Sadok
 
 #ifndef __MASTER_ALLOCATOR_SORTER_DRF_SORTER_HPP__
 #define __MASTER_ALLOCATOR_SORTER_DRF_SORTER_HPP__
